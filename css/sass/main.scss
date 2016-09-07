@@ -248,7 +248,7 @@ input{
 	display: flex;
 	right: 25px;
 	top: 225px;
-	min-width: 115px;
+	min-width: 152px;
 	background-color: #fafcff;
 	border-top: 4px solid #bbb;
 	position: fixed;
@@ -272,5 +272,17 @@ input{
 	display: block;
 }
 .main{
-	width: calc(100% - 275px);
+	// width: calc(100% - 275px);
+	.google-adwords{
+		img {
+			width: 100%;
+		}
+	}
+}
+.mail-border{
+	border-style: solid;
+    border-width: 4px 4px;
+    -webkit-border-image: url(../img/color-border.png) 4 4 repeat;
+    -o-border-image: url(../img/color-border.png) 4 4 repeat;
+    border-image: url(../img/color-border.png) 4 4 fill repeat;
 }
